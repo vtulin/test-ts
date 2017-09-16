@@ -1,0 +1,24 @@
+{
+  "name": "test-ts",
+  "version": "1.0.0",
+  "description": "Default Typescript Playground",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtulin/test-ts.git"
+  },
+  "author": "Vladimir Tulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtulin/test-ts/issues"
+  },
+  "homepage": "https://github.com/vtulin/test-ts#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  }
+}
