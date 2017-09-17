@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": false,
+    "lib": [ "dom", "es6", "es7", "esnext" ],
+    "types": [ "node" ],
+    "inlineSources": false,
+    "removeComments": true,
+    "baseUrl": ".",
+    "paths": {
+      "@modules/*": [ "./modules/*" ],
+      "modules/*": [ "./src/modules/*" ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}

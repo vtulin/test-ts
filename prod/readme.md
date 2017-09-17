@@ -1,2 +1,2 @@
 
-No production scripts as this is just playground.
+No production scripts as this is just a playground.
